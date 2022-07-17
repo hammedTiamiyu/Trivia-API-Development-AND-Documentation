@@ -153,12 +153,12 @@ You can optionally update this game play to increase the number of questions or 
 `POST '/quizzes'`
 
 - Sends a post request in order to get the next question
-- Request Body:
+  - Request Body:
 
 ```json
 {
-    'previous_questions': [1, 4, 20, 15]
-    quiz_category': 'current category'
+    "previous_questions": [1, 4, 20, 15],
+    "quiz_category": "current category
  }
 ```
 
